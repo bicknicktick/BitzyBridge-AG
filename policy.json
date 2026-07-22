@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "mode": "remote-confirm",
+  "auto_choice": 1,
+  "allowed_kinds": [],
+  "allow_roots": [],
+  "deny_roots": [
+    "~/.ssh",
+    "~/.gnupg",
+    "~/.hermes/.env",
+    "~/.config/Antigravity",
+    "/etc",
+    "/usr",
+    "/var/lib",
+    "/boot",
+    "/root"
+  ]
+}

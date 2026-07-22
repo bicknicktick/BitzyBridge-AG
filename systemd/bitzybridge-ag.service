@@ -1,0 +1,25 @@
+[Unit]
+Description=BitzyBridge-AG Antigravity control and Telegram approval watcher
+After=network-online.target hermes-gateway.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+EnvironmentFile=-%h/.hermes/.env
+EnvironmentFile=%h/.config/bitzybridge-ag/env
+WorkingDirectory=%h/.hermes/plugins/bitzybridge-ag
+ExecStart=%h/.local/share/bitzybridge-ag/venv/bin/python %h/.hermes/plugins/bitzybridge-ag/watcher.py
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=%h/.cache/bitzybridge-ag
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LockPersonality=true
+RestrictRealtime=true
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">BitzyBridge-AG</title>
+  <desc id="desc">A secure green bridge connecting Hermes Agent and Antigravity</desc>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="#0d1117" stroke="#30363d" stroke-width="16"/>
+  <path d="M144 256H368" fill="none" stroke="#3fb950" stroke-width="24" stroke-linecap="round"/>
+  <path d="M192 208l-48 48 48 48M320 208l48 48-48 48" fill="none" stroke="#3fb950" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="112" cy="256" r="48" fill="#161b22" stroke="#f0f6fc" stroke-width="12"/>
+  <circle cx="400" cy="256" r="48" fill="#161b22" stroke="#f0f6fc" stroke-width="12"/>
+  <path d="M230 184v-18c0-34 18-54 26-54s26 20 26 54v18" fill="none" stroke="#f0f6fc" stroke-width="14" stroke-linecap="round"/>
+  <rect x="212" y="176" width="88" height="72" rx="18" fill="#161b22" stroke="#3fb950" stroke-width="12"/>
+  <circle cx="256" cy="207" r="10" fill="#3fb950"/>
+  <path d="M256 217v14" stroke="#3fb950" stroke-width="10" stroke-linecap="round"/>
+  <text x="112" y="271" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="42" font-weight="700" text-anchor="middle">H</text>
+  <text x="400" y="268" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="30" font-weight="700" text-anchor="middle">AG</text>
+  <text x="256" y="400" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="4" text-anchor="middle">BITZYBRIDGE</text>
+</svg>

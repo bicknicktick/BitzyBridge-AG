@@ -1,0 +1,5 @@
+name: bitzybridge-ag
+version: "0.1.0"
+description: Secure Telegram remote control and human-in-the-loop approval bridge for Antigravity.
+provides_hooks:
+  - pre_gateway_dispatch
